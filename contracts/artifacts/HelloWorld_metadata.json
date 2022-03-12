@@ -7,6 +7,11 @@
 		"abi": [
 			{
 				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
 				"name": "greeting",
 				"outputs": [
 					{
@@ -42,19 +47,6 @@
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_greeting",
-						"type": "string"
-					}
-				],
-				"name": "setGreeting",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -112,11 +104,11 @@
 	},
 	"sources": {
 		"contracts/HelloWorld.sol": {
-			"keccak256": "0x8b7850b9d0e1b7e99fe1128bbc6e87f8fcce2b1e66937dd65cfc5b9414a16399",
+			"keccak256": "0xdd08e11ebf01bd2245112651c9f4aa7fecb0b3062476ccdbcae5657ff511419f",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://2f3d6201c231005b78436bf09a0b06948fed4c73625fd352d00e83bcd1617cdf",
-				"dweb:/ipfs/QmTovhiaEULRtkkvPRqRUxNt8fttnGGE3yBzzzzDdEFEGr"
+				"bzz-raw://dc67a4d4e0850021435dc80267a68e8b47a7b0ff63c20789cc1a1f5144b1a22f",
+				"dweb:/ipfs/QmWjkw5gyxK6yCEqRf1PYj6USC3CnAHKRbuHdjNzp98PFN"
 			]
 		}
 	},

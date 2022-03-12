@@ -5,8 +5,8 @@ contract HelloWorld {
     string public greeting;
     uint public number;
 
-    function setGreeting(string memory _greeting) public {
-        greeting = _greeting;
+    constructor () {
+        greeting = "Hello, World!";
     }
 
     function viewGreeting() public view returns(string memory){
